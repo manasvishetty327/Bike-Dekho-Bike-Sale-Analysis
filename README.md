@@ -1,93 +1,67 @@
-# 🚴‍♂️ Bike Dekho – Bike Sales Analysis  
+# Bike Dekho – Bike Sales Analysis
 
-## 📌 Project Overview  
-An Excel-based data analytics project that explores **customer demographics, commute patterns, and income influence** to identify factors affecting bike purchases.  
-Using **cleaned and structured data**, the project delivers an **interactive dashboard** with actionable insights for targeted marketing and sales strategies.  
+An Excel-based data analytics project that explores customer demographics, commute patterns, and income in relation to bike purchases.
 
----
+## Project Overview
 
-## 🛠 Tools & Techniques  
-- **Microsoft Excel**  
-  - PivotTables  
-  - Charts (📊 Clustered Column, 📈 Line, 🗂 Stacked Column, 🥧 Pie)  
-  - Conditional Formatting  
-  - Data Cleaning & Standardization  
+The project uses a cleaned dataset and an interactive Excel dashboard to examine factors associated with bike purchasing behavior. PivotTables, charts, and filters help explore customer segments and regional patterns.
 
----
+## Tools and Techniques
 
-## 🧹 Data Cleaning Summary  
-✔ Removed extra spaces & duplicate records  
-✔ Standardized `Purchased Bike` column to **YES/NO**  
-✔ Converted `Income` to numeric format  
-✔ Applied **Title Case** to inconsistent text entries  
-✔ Formatted commute distance values uniformly  
-✔ Highlighted patterns using **Conditional Formatting**  
+- Microsoft Excel
+- Data cleaning and standardization
+- PivotTables and PivotCharts
+- Clustered column, line, stacked column, and pie charts
+- Conditional formatting
 
----
+## Data Preparation
 
-## 📊 Dashboard Highlights  
+The reported preparation steps include:
 
-### 1️⃣ Gender vs Bike Purchase *(Clustered Column Chart)*  
-🔍 Shows male vs female buying trends — helps in **gender-targeted marketing**.
+- Removing extra spaces and duplicate records
+- Standardizing the `Purchased Bike` values to YES/NO
+- Converting income values to numeric format
+- Applying consistent text casing
+- Standardizing commute-distance formatting
+- Using conditional formatting to highlight patterns
 
-### 2️⃣ Commute Distance vs Bike Purchase *(Line Chart)*  
-🚗 Medium-to-long commute distances (2–10 miles) see **higher bike purchases**.
+## Dashboard Areas
 
-### 3️⃣ Occupation vs Average Income *(Stacked Column Chart)*  
-💼 Higher-income professionals & managers have **greater purchase potential**.
+- **Gender and bike purchases** — compare purchase patterns across gender groups.
+- **Commute distance and purchases** — explore how commute distance relates to purchasing.
+- **Occupation and average income** — compare income patterns across occupation groups.
+- **Regional purchases** — review the distribution of purchases by region.
 
-### 4️⃣ Region-wise Bike Purchase *(Pie Chart)*  
-🌍 Certain regions (e.g., North America) show **higher adoption rates** — ideal for **regional campaigns**.
+## Key Analytical Takeaways
 
----
+The dashboard is intended to help explore demographic, commute, income, and regional differences in bike purchases. These relationships are descriptive and should not be interpreted as proof that any single factor causes a purchase.
 
-## 📈 Key Business Insights  
-1. **Target Demographics** → Males may have higher purchase rates.  
-2. **Commute Trends** → Medium-to-long commuters prefer bikes.  
-3. **Income Influence** → High-income occupations = higher purchase likelihood.  
-4. **Regional Focus** → Prioritize high-performing regions for campaigns.  
-5. **Education & Occupation** → Skilled & educated buyers show aspirational purchasing behavior.  
+## Project Files
 
----
+The project deliverables include the Excel workbook, cleaned data, dashboard, and an insights report where those files are present in the repository.
 
-## 📦 Deliverables  
-- ✅ Cleaned & standardized dataset  
-- ✅ Interactive Excel dashboard  
-- ✅ PivotTable-based analysis  
-- ✅ Business insight summary report  
+## How to Explore
 
----
+1. Clone the repository:
 
-## 🎯 Skills Demonstrated  
-- Data Cleaning & Formatting in Excel  
-- PivotTable Creation & Analysis  
-- Data Visualization (📊 Charts & Graphs)  
-- Dashboard Design & Layout  
-- Insight Generation for Decision-Making  
+   ```bash
+   git clone https://github.com/manasvishetty327/Bike-Dekho-Bike-Sale-Analysis.git
+   cd Bike-Dekho-Bike-Sale-Analysis
+   ```
 
----
+2. Open the Excel workbook in Microsoft Excel.
+3. Navigate to the Dashboard sheet.
+4. Use the available PivotTable filters to explore the data.
+5. Review the insights report if included.
 
-## 📂 Project Files  
+## Skills Demonstrated
 
-📁 Bike_Dekho_Analysis
-├── 📄 README.md # Project Documentation
-├── 📊 Bike_Dekho_Analysis.xlsx # Cleaned Data + Dashboard
-└── 📄 Insights_Report.pdf # Summary of Insights
+- Data cleaning and formatting
+- PivotTable-based analysis
+- Excel dashboard design
+- Data visualization
+- Business insight communication
 
+## Author
 
----
-
-## 🚀 How to Explore  
-1. Open `Bike_Dekho_Analysis.xlsx` in **Microsoft Excel**  
-2. Go to the **Dashboard** sheet for visual analysis  
-3. Use **PivotTable filters** to explore different insights  
-4. Review the **Insights_Report.pdf** for business findings  
-
----
-
-##  Conclusion  
-This project bridges **data analysis** and **business strategy** by uncovering patterns in bike sales.  
-The insights can help businesses **target the right customers, focus on the right regions, and align marketing campaigns for maximum ROI**.
-
----
-
+**Manasvi Shetty**
